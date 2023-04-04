@@ -5,6 +5,10 @@
    
 }
 
+body {
+    margin: 0px;
+    }
+
 .TopNav a{
 float: left;
 color: black;
@@ -34,18 +38,30 @@ align-items: center;
     display: inline-block;
 }
 
+.TopNav-Right{
+    float: right;
+color: black;
+padding: 14px 22px;
+text-decoration: none;
+font-size: 18px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
 background{
-    color: cornflowerblue;
+    color: rgb(65, 126, 240);
 }
   
   .logo {
-    height: 50px;
-    width: 1500px;
+    height: auto;
+    width: auto;
     max-height: 72px;
     max-width: 250px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
   }
+
   
   .menu-bg .logo {
     
